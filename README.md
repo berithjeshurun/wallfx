@@ -2,6 +2,11 @@
 
 Memory-safe live wallpaper engine for Windows (Rust).
 
+**Repo:** https://github.com/berithjeshurun/wallfx  
+**Windows release:** https://github.com/berithjeshurun/wallfx/releases/tag/v0.1.0
+
+Download `WallFX-windows-x64-v0.1.0.zip`, unzip, run `wallfx.exe`.
+
 ## Why Rust
 
 - Always-on desktop process → memory safety matters more than Python speed of writing
