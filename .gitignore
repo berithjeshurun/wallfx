@@ -1,0 +1,41 @@
+/target/
+**/*.rs.bk
+.DS_Store
+Thumbs.db
+*.pdb
+*.ilk
+*.exp
+*.lib
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.env
+*.log
+
+# Local runtime / caches
+/cache/
+/bin/
+/wallfx.exe
+/smoke_*.log
+/config.yaml
+/config.expand.yaml
+/wallpapers/parallax/*/
+
+# Large local media (ship via Releases, not git)
+/media/
+/wsource/
+/dist/
+*.mp4
+*.mkv
+*.webm
+*.avi
+
+# Player binaries used for packing (download separately for contrib)
+/tools/**/*.exe
+/tools/mpv/
+/tools/mpv-dl/
+/tools/ffmpeg.exe
+
+# Keep sample parallax zip tracked under wallpapers/parallax/
+!/wallpapers/parallax/*.zip

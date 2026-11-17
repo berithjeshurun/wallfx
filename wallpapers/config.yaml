@@ -1,0 +1,37 @@
+self:
+  expand: true
+ui:
+  toolkit: egui
+wallpaper:
+  mode: video
+  video: G:\wallpaperengine\wallpapers\64.mp4
+  loop_playback: true
+  mute: true
+  preview: false
+  enabled: false
+  backend: default
+  fit: fill
+  max_decode_w: 0
+  max_decode_h: 0
+  monitors: []
+  time_sync: true
+  per_monitor:
+  - id: \\.\DISPLAY5:1920x1080+0+0
+    video: G:\wallpaperengine\wallpapers\81.mp4
+grade:
+  enabled: false
+  brightness: 0.0
+  contrast: 1.0
+  saturation: 1.0
+  gamma: 1.0
+  lut: ''
+  bake: false
+parallax:
+  strength: 0.045
+  invert_depth: false
+startup:
+  with_windows: true
+unlock:
+  pause_when_locked: true
+  fade_on_unlock: true
+  fade_ms: 400
